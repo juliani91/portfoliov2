@@ -14,7 +14,7 @@ header{
 	text-align: center;
 }
 
-header .logo img{
+header .logo img{ 
 	width: 8rem;
 }
 
@@ -29,6 +29,7 @@ h1{
 .introduction .title span{
 	color: #ffffff;
 	font-weight: 400;
+	font-weight: 700;
 }
 
 .introduction .title:not(span){
@@ -38,13 +39,13 @@ h1{
 }
 
 .introduction .sub-title{
-	font-size: 1.2rem;
+	font-size: 1.2rem; 
 	font-weight: 600;
+	font-weight: 700;
 	color: #ffffff;
 	margin-bottom: 0;
 	margin-top: 1rem;
-}
-
+} 
 section.introduction .title{
   animation-delay: 0.5s;
   -webkit-animation-delay: 0.5s;
@@ -56,8 +57,6 @@ section.introduction .sub-title{
   -webkit-animation-delay: 0.7s;
   -moz-animation-delay: 0.7s;
 }
-
-
 /*End of introduction section*/
 
 /* PORTFOLIO */
@@ -198,23 +197,24 @@ section.portfolio .thumb:hover .article-meta {
 
 /*Contact Me*/
 
-.contact{
+.contact{ 
   padding: 2rem 0;
   text-align: center;
 }
 
 .contact h2{
-	font-size: 3rem;
-  color: #343d46;
+  font-size: 3rem; 
+  color: #ffffff;
+  font-weight: 300;
+  text-shadow: 0 1px 2px rgba(0,0,0,0.2);
 }
 
 .contact p{
   color: #ffffff;
   font-weight: 600;
+  text-shadow: 0 1px 2px rgba(0,0,0,0.2);
   font-size: 1.2rem;
-}
-
-
+} 
 .contact .social2{
 	display: flex;
 	justify-content: space-around;
@@ -249,7 +249,6 @@ section.portfolio .thumb:hover .article-meta {
   	transform: translate(0px, -10px);
   	background: #ffffff;
 }
-
 /*Footer*/
 
 footer{
@@ -262,5 +261,4 @@ footer p {
 	color: #ffffff;
 	margin-bottom: 0;
 }
-
 /*End of footer */
