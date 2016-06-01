@@ -18,6 +18,41 @@ header .logo img{
 	width: 8rem;
 }
 
+header .social{
+	display: flex;
+	justify-content: space-around;
+}
+
+header .social img{
+	width: 58px;
+	height: 60px;
+}
+
+header .social img:nth-child(1){
+	border-radius: 50%;
+	box-shadow: 0px 17px 10px -10px rgba(0,0,0,0.4);
+	transition: all 0.3s ease-in-out;
+}
+
+header .social img:nth-child(2){
+	border-radius: 10px;
+  	box-shadow: 0 17px 10px -10px rgba(0,0,0,0.4);
+  	transition: all 0.3s ease-in-out;
+}
+
+header .social img:nth-child(1):hover{
+	box-shadow: 0px 37px 20px -20px rgba(0,0,0,0.2);
+  	transform: translate(0px, -10px);
+  	background: #1a94ea;
+
+}
+
+header .social img:nth-child(2):hover{
+	box-shadow: 0px 37px 20px -20px rgba(0,0,0,0.2);
+  	transform: translate(0px, -10px);
+  	background: #72a0e5;
+}
+
 /*End of header*/
 
 /*introduction section*/
@@ -29,6 +64,7 @@ h1{
 .introduction .title span{
 	color: #ffffff;
 	font-weight: 600;
+	font-weight: 700;
 }
 
 .introduction .title:not(span){
@@ -40,6 +76,7 @@ h1{
 .introduction .sub-title{
 	font-size: 1.2rem;
 	font-weight: 600;
+	font-weight: 700;
 	color: #ffffff;
 	margin-bottom: 0;
 	margin-top: 1rem;
@@ -184,23 +221,24 @@ section.portfolio .thumb:hover .article-meta {
 /*End of portfolio*/
 
 /*Contact Me*/
-
 .contact{
   padding: 2rem 0;
   text-align: center;
 }
 
 .contact h2{
-	font-size: 3rem;
-  color: #343d46;
+  font-size: 3rem;
+  color: #ffffff;
+  font-weight: 300;
+  text-shadow: 0 1px 2px rgba(0,0,0,0.2); 
 }
 
 .contact p{
   color: #ffffff;
   font-weight: 600;
+  text-shadow: 0 1px 2px rgba(0,0,0,0.2);
   font-size: 1.2rem;
 }
-
 
 .contact .social2{
 	display: flex;
@@ -236,18 +274,18 @@ section.portfolio .thumb:hover .article-meta {
   	transform: translate(0px, -10px);
   	background: #ffffff;
 }
-
+ 
 /*Footer*/
 
 footer{
 	text-align: center;
-	background: #3a5d9c;
+	background: #479cf7;
 }
 
 footer p {
 	font-size: 1.2rem;
 	color: #ffffff;
 	margin-bottom: 0;
-}
-
+} 
+ 
 /*End of footer */
