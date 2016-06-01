@@ -1,12 +1,13 @@
+html{
+	font-size: 16px;
+}
 body{
 	font-family: 'Lato', Helvetica, sans-serif;
 	background-color: #e9e2ba;
-}
-
-main{
 	background-image: url('../images/design-bg.png');
-	background-size: 60%;
-	background-position: center;
+	background-size: 20%;
+	background-repeat-x: inherit;
+	background-repeat-y: inherit;
 }
 
 header{
@@ -15,7 +16,7 @@ header{
 }
 
 header .logo img{
-	width: 8rem;
+	width: 5rem;
 }
 
 /*End of header*/
@@ -23,7 +24,7 @@ header .logo img{
 /*introduction section*/
 
 h1{
-	font-size: 3.5rem;
+	font-size: 2.5rem;
 }
 
 .introduction .title span{
@@ -38,7 +39,7 @@ h1{
 }
 
 .introduction .sub-title{
-	font-size: 1.2rem;
+	font-size: 1rem;
 	font-weight: 600;
 	color: #ffffff;
 	margin-bottom: 0;
@@ -71,12 +72,12 @@ section.portfolio{
 }
 
 section.portfolio h2{
-	font-size: 3rem;
+	font-size: 2rem;
 	margin-top: 2rem;
 }
 
 section.portfolio p{
-	font-size: 1.2rem;
+	font-size: 1rem;
 	color: #ffffff;
 }
 
@@ -125,7 +126,7 @@ section.portfolio .article-meta {
 }
 
 section.portfolio .article-meta .name {
-    font-size: 18px;
+    font-size: 1rem;
     font-weight: bold;
     line-height: 1.2;
 }
@@ -133,6 +134,7 @@ section.portfolio .article-meta .name {
 section.portfolio .article-meta .date{
   font-style: italic;
   font-weight: bold;
+  font-size: 1rem;
 }
 
 
@@ -204,14 +206,14 @@ section.portfolio .thumb:hover .article-meta {
 }
 
 .contact h2{
-	font-size: 3rem;
+	font-size: 2rem;
   color: #343d46;
 }
 
 .contact p{
   color: #ffffff;
   font-weight: 600;
-  font-size: 1.2rem;
+  font-size: 1rem;
 }
 
 
@@ -222,7 +224,6 @@ section.portfolio .thumb:hover .article-meta {
 
 .contact .social2 img{
 	width: 58px;
-	height: 60px;
 }
 
 .contact .social2 a:nth-child(1) img{
@@ -258,9 +259,62 @@ footer{
 }
 
 footer p {
-	font-size: 1.2rem;
+	font-size: 1rem;
 	color: #ffffff;
 	margin-bottom: 0;
 }
 
 /*End of footer */
+
+/*-=============MEDIA QUERIES-=============*/
+
+/* Larger than mobile */
+@media (min-width: 400px) {
+
+section.portfolio .first-list{
+  width: 100%;
+}
+
+} /*end of mobile 400*/
+
+/* Larger than phablet (also point when grid becomes active) */
+@media (min-width: 550px) {
+
+section.portfolio .first-list{
+  width: 105%;
+}
+
+
+}
+
+/* Larger than tablet */
+@media (min-width: 750px) {
+html{
+	font-size: 18px;
+}
+section.portfolio .first-list{
+  width: 77%;
+}
+
+}
+
+/* Larger than desktop */
+@media (min-width: 1000px) {
+html{
+	font-size: 20px;
+}
+section.portfolio .first-list{
+  width: 100%;
+}
+}
+
+/* Larger than Desktop HD */
+@media (min-width: 1200px) {
+html{
+	font-size: 22px;
+}
+
+.contact .social2 img{
+	width: 5rem;
+}
+}
