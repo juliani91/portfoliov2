@@ -1,0 +1,257 @@
+body{
+	font-family: 'Lato', Helvetica, sans-serif;
+	background-color: #e9e2ba;
+}
+
+main{
+	background-image: url('../images/design-bg.png');
+	background-size: 60%;
+	background-position: center;
+}
+
+header{
+	padding: 1.8rem 0.8rem;
+	text-align: center;
+}
+
+header .logo img{
+	width: 58px;
+}
+
+header .social{
+	display: flex;
+	justify-content: space-around;
+}
+
+header .social img{
+	width: 58px;
+	height: 60px;
+}
+
+header .social img:nth-child(1){
+	border-radius: 50%;
+	box-shadow: 0px 17px 10px -10px rgba(0,0,0,0.4);
+	transition: all 0.3s ease-in-out;
+}
+
+header .social img:nth-child(2){
+	border-radius: 10px;
+  	box-shadow: 0 17px 10px -10px rgba(0,0,0,0.4);
+  	transition: all 0.3s ease-in-out;
+}
+
+header .social img:nth-child(1):hover{
+	box-shadow: 0px 37px 20px -20px rgba(0,0,0,0.2);
+  	transform: translate(0px, -10px);
+  	background: #1a94ea;
+
+}
+
+header .social img:nth-child(2):hover{
+	box-shadow: 0px 37px 20px -20px rgba(0,0,0,0.2);
+  	transform: translate(0px, -10px);
+  	background: #72a0e5;
+}
+
+/*End of header*/
+
+/*introduction section*/
+
+h1{
+	font-size: 3.5rem;
+}
+
+.introduction .title span{
+	color: #ffffff;
+	font-weight: 700;
+}
+
+.introduction .title:not(span){
+	color: #343d46;
+	font-weight: 100;
+	margin-bottom: 0;
+}
+
+.introduction .sub-title{
+	font-size: 1.2rem;
+	font-weight: 700;
+	color: #ffffff;
+	margin-bottom: 0;
+	margin-top: 1rem;
+}
+
+/*End of introduction section*/
+
+/* PORTFOLIO */
+
+/*Testing image grids*/
+
+section.portfolio{
+	text-align: center;
+	background-color: #479cf7;
+	margin-top: 2rem;
+}
+
+section.portfolio h2{
+	font-size: 3rem;
+	margin-top: 2rem;
+}
+
+section.portfolio p{
+	font-size: 1.2rem;
+	color: #ffffff;
+}
+
+
+
+section.portfolio .first-list{
+  width: 50%;
+  margin: 0 auto;
+}
+
+section.portfolio .thumb.is-visible{
+  opacity: 1;
+  transform: translateX(0px);
+}
+section.portfolio .thumb{
+    display: block;
+    background-size: cover;
+    background-position: center;
+    width: 150px;
+    height: 150px;
+    float: left;
+    position: relative;
+    overflow: hidden;
+    opacity: 0;
+    -webkit-transform: translateX(-20px);
+    -ms-transform: translateX(-20px);
+    transform: translateX(-20px);
+    transition: all 300ms ease-in-out
+}
+
+/*Fist image*/
+section.portfolio .article-meta {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0,0,0,0.5);
+    color: white;
+    padding: 10px;
+    -webkit-transform: translate(0%, 100%) scale(1.5);
+    -ms-transform: translate(0%, 100%) scale(1.5);
+    transform: translate(0%, 100%) scale(1.5);
+    transition: all 200ms ease-in-out;
+    opacity: 0;
+}
+
+section.portfolio .article-meta .name {
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 1.2;
+}
+
+section.portfolio .article-meta .date{
+  font-style: italic;
+  font-weight: bold;
+}
+
+
+
+section.portfolio .thumb:hover .article-meta {
+    opacity: 1;
+    -webkit-transform: translate(0%, 0%) scale(1);
+    -ms-transform: translate(0%, 0%) scale(1);
+    transform: translate(0%, 0%) scale(1);
+}
+
+/*testing tada*/
+
+   section.portfolio .thumb.animating {
+      -webkit-animation-name: jello;
+              animation-name: jello;
+      -webkit-animation-duration: 1s;
+              animation-duration: 1s;
+      -webkit-animation-fill-mode: both;
+              animation-fill-mode: both;
+      z-index: 1; }
+
+
+/*Changing date font color*/
+.first-list a:nth-child(1) .date{
+  color: #FFDD55;
+}
+
+.first-list a:nth-child(2) .date{
+  color: #97c024;
+}
+
+.first-list a:nth-child(3) .date{
+  color: #00B294;
+}
+
+.first-list a:nth-child(4) .date{
+  color: #97c024;
+}
+.first-list a:nth-child(5) .date{
+  color: #97c024;
+}
+.first-list a:nth-child(6) .date{
+  color: #FFDD55;
+}
+.first-list a:nth-child(7) .date{
+  color: #FFDD55;
+}
+
+.first-list a:nth-child(8) .date{
+  color: #FFDD55;
+}
+
+/*Changing position on portfolio images*/
+.first-list a:nth-child(6){
+  background-position: top center;
+}
+.first-list a:nth-child(8){
+  background-position: 30%;
+}
+
+/*End of portfolio*/
+
+/*Contact Me*/
+
+.contact{
+  background: url('../images/macbook-res.jpg') top center no-repeat;
+  background-size: cover;
+  width: 100%;
+  padding: 2rem 0;
+  text-align: center;
+}
+
+.contact h2{
+	font-size: 3rem;
+  color: #ffffff;
+  font-weight: 300;
+  text-shadow: 0 1px 2px rgba(0,0,0,0.2);
+}
+
+.contact p{
+  color: #ffffff;
+  text-shadow: 0 1px 2px rgba(0,0,0,0.2);
+  font-size: 1.2rem;
+}
+
+
+/*Footer*/
+
+footer{
+	text-align: center;
+	background: #3a5d9c;
+}
+
+footer p {
+	font-size: 1.2rem;
+	color: #ffffff;
+	margin-bottom: 0;
+}
+/*End of footer */
