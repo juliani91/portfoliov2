@@ -1,3 +1,4 @@
+<<<<<<< 5a7bb0a5fab5c42d059ce02850cb2f7447b78492
 html{
 	font-size: 16px;
 }
@@ -8,6 +9,17 @@ body{
 	background-size: 20%;
 	background-repeat-x: inherit;
 	background-repeat-y: inherit;
+=======
+body{
+	font-family: 'Lato', Helvetica, sans-serif;
+	background-color: #e9e2ba;
+}
+
+main{
+	background-image: url('../images/design-bg.png');
+	background-size: 60%;
+	background-position: center;
+>>>>>>> First commit
 }
 
 header{
@@ -16,7 +28,46 @@ header{
 }
 
 header .logo img{
+<<<<<<< 5a7bb0a5fab5c42d059ce02850cb2f7447b78492
 	width: 5rem;
+=======
+	width: 58px;
+}
+
+header .social{
+	display: flex;
+	justify-content: space-around;
+}
+
+header .social img{
+	width: 58px;
+	height: 60px;
+}
+
+header .social img:nth-child(1){
+	border-radius: 50%;
+	box-shadow: 0px 17px 10px -10px rgba(0,0,0,0.4);
+	transition: all 0.3s ease-in-out;
+}
+
+header .social img:nth-child(2){
+	border-radius: 10px;
+  	box-shadow: 0 17px 10px -10px rgba(0,0,0,0.4);
+  	transition: all 0.3s ease-in-out;
+}
+
+header .social img:nth-child(1):hover{
+	box-shadow: 0px 37px 20px -20px rgba(0,0,0,0.2);
+  	transform: translate(0px, -10px);
+  	background: #1a94ea;
+
+}
+
+header .social img:nth-child(2):hover{
+	box-shadow: 0px 37px 20px -20px rgba(0,0,0,0.2);
+  	transform: translate(0px, -10px);
+  	background: #72a0e5;
+>>>>>>> First commit
 }
 
 /*End of header*/
@@ -24,12 +75,20 @@ header .logo img{
 /*introduction section*/
 
 h1{
+<<<<<<< 5a7bb0a5fab5c42d059ce02850cb2f7447b78492
 	font-size: 2.5rem;
+=======
+	font-size: 3.5rem;
+>>>>>>> First commit
 }
 
 .introduction .title span{
 	color: #ffffff;
+<<<<<<< 5a7bb0a5fab5c42d059ce02850cb2f7447b78492
 	font-weight: 400;
+=======
+	font-weight: 700;
+>>>>>>> First commit
 }
 
 .introduction .title:not(span){
@@ -39,13 +98,19 @@ h1{
 }
 
 .introduction .sub-title{
+<<<<<<< 5a7bb0a5fab5c42d059ce02850cb2f7447b78492
 	font-size: 1rem;
 	font-weight: 600;
+=======
+	font-size: 1.2rem;
+	font-weight: 700;
+>>>>>>> First commit
 	color: #ffffff;
 	margin-bottom: 0;
 	margin-top: 1rem;
 }
 
+<<<<<<< 5a7bb0a5fab5c42d059ce02850cb2f7447b78492
 section.introduction .title{
   animation-delay: 0.5s;
   -webkit-animation-delay: 0.5s;
@@ -59,6 +124,8 @@ section.introduction .sub-title{
 }
 
 
+=======
+>>>>>>> First commit
 /*End of introduction section*/
 
 /* PORTFOLIO */
@@ -69,16 +136,27 @@ section.portfolio{
 	text-align: center;
 	background-color: #479cf7;
 	margin-top: 2rem;
+<<<<<<< 5a7bb0a5fab5c42d059ce02850cb2f7447b78492
 	padding-bottom: 2rem;
 }
 
 section.portfolio h2{
 	font-size: 2rem;
+=======
+}
+
+section.portfolio h2{
+	font-size: 3rem;
+>>>>>>> First commit
 	margin-top: 2rem;
 }
 
 section.portfolio p{
+<<<<<<< 5a7bb0a5fab5c42d059ce02850cb2f7447b78492
 	font-size: 1rem;
+=======
+	font-size: 1.2rem;
+>>>>>>> First commit
 	color: #ffffff;
 }
 
@@ -127,7 +205,11 @@ section.portfolio .article-meta {
 }
 
 section.portfolio .article-meta .name {
+<<<<<<< 5a7bb0a5fab5c42d059ce02850cb2f7447b78492
     font-size: 1rem;
+=======
+    font-size: 18px;
+>>>>>>> First commit
     font-weight: bold;
     line-height: 1.2;
 }
@@ -135,7 +217,10 @@ section.portfolio .article-meta .name {
 section.portfolio .article-meta .date{
   font-style: italic;
   font-weight: bold;
+<<<<<<< 5a7bb0a5fab5c42d059ce02850cb2f7447b78492
   font-size: 1rem;
+=======
+>>>>>>> First commit
 }
 
 
@@ -202,17 +287,31 @@ section.portfolio .thumb:hover .article-meta {
 /*Contact Me*/
 
 .contact{
+<<<<<<< 5a7bb0a5fab5c42d059ce02850cb2f7447b78492
+=======
+  background: url('../images/macbook-res.jpg') top center no-repeat;
+  background-size: cover;
+  width: 100%;
+>>>>>>> First commit
   padding: 2rem 0;
   text-align: center;
 }
 
 .contact h2{
+<<<<<<< 5a7bb0a5fab5c42d059ce02850cb2f7447b78492
 	font-size: 2rem;
   color: #343d46;
+=======
+	font-size: 3rem;
+  color: #ffffff;
+  font-weight: 300;
+  text-shadow: 0 1px 2px rgba(0,0,0,0.2);
+>>>>>>> First commit
 }
 
 .contact p{
   color: #ffffff;
+<<<<<<< 5a7bb0a5fab5c42d059ce02850cb2f7447b78492
   font-weight: 600;
   font-size: 1rem;
 }
@@ -251,6 +350,12 @@ section.portfolio .thumb:hover .article-meta {
   	transform: translate(0px, -10px);
   	background: #ffffff;
 }
+=======
+  text-shadow: 0 1px 2px rgba(0,0,0,0.2);
+  font-size: 1.2rem;
+}
+
+>>>>>>> First commit
 
 /*Footer*/
 
@@ -260,6 +365,7 @@ footer{
 }
 
 footer p {
+<<<<<<< 5a7bb0a5fab5c42d059ce02850cb2f7447b78492
 	font-size: 1rem;
 	color: #ffffff;
 	margin-bottom: 0;
@@ -319,3 +425,10 @@ html{
 	width: 5rem;
 }
 }
+=======
+	font-size: 1.2rem;
+	color: #ffffff;
+	margin-bottom: 0;
+}
+/*End of footer */
+>>>>>>> First commit
