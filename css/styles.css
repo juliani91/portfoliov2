@@ -28,7 +28,7 @@ h1{
 
 .introduction .title span{
 	color: #ffffff;
-	font-weight: 600;
+	font-weight: 400;
 }
 
 .introduction .title:not(span){
@@ -44,6 +44,19 @@ h1{
 	margin-bottom: 0;
 	margin-top: 1rem;
 }
+
+section.introduction .title{
+  animation-delay: 0.5s;
+  -webkit-animation-delay: 0.5s;
+  -moz-animation-delay: 0.5s;
+}
+
+section.introduction .sub-title{
+  animation-delay: 0.7s;
+  -webkit-animation-delay: 0.7s;
+  -moz-animation-delay: 0.7s;
+}
+
 
 /*End of introduction section*/
 
