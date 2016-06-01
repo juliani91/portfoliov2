@@ -318,4 +318,18 @@ html{
 .contact .social2 img{
 	width: 5rem;
 }
+
+section.portfolio .article-meta .name {
+    font-size: 0.7rem;
+    font-weight: bold;
+    line-height: 1.2;
+}
+
+section.portfolio .article-meta .date{
+  font-style: italic;
+  font-weight: bold;
+  font-size: 0.6rem;
+}
+
+
 }
